@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>PC centro</title>
+<script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+a:link {
+	color: #660033;
+}
+a:visited {
+	color: #FFFFFF;
+}
+-->
+</style></head>
+<style type="text/css">
+<!--
+h1 {color:#FFFFFF ; font-size:36px ; font-family:"Courier New", Courier, monospace}
+.Estilo1 {color:#FFFFFF ; font-size:24px ; font-family:Georgia, "Times New Roman", Times, serif}
+h2 {color:#FFFFFF ; font-size:30px ; font-family:"Times New Roman", Times, serif}
+img, video, table, div {max-width:100%; box-sizing:border-box}
+-->
+</style>
+<body bgcolor="#bd5eff" onload="MM_preloadImages('Imagenes/ABR2.jpg','Imagenes/ABP2.jpg','Imagenes/ABI2.jpg','Imagenes/AB2.jpg')">
+<div align="center"> 
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><a href="https://www.instagram.com/camila_cabello/" target="_top" onclick="MM_nbGroup('down','group1','CCR','',1)" onmouseover="MM_nbGroup('over','CCR','Imagenes/ABR2.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="Imagenes/CCR.jpg" alt="" name="CCR" width="500" height="50" border="0" id="CCR" onload="" /></a></td>
+      <td><a href="Principal.html" target="_top" onclick="MM_nbGroup('down','group1','CCP','',1)" onmouseover="MM_nbGroup('over','CCP','Imagenes/ABP2.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="Imagenes/CCP.jpg" alt="" name="CCP" width="500" height="50" border="0" id="CCP" onload="" /></a></td>
+      <td><a href="https://mx.pinterest.com/search/pins/?q=camila cabello&amp;rs=ac&amp;len=6&amp;source_id=ac_c9MdkLYs&amp;eq=camila&amp;etslf=7952" target="_top" onclick="MM_nbGroup('down','group1','CCI','',1)" onmouseover="MM_nbGroup('over','CCI','Imagenes/ABI2.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="Imagenes/CCI.jpg" alt="" name="CCI" width="500" height="50" border="0" id="CCI" onload="" /></a></td>
+    </tr>
+  </table>
+</div>
+<br /> 
+<div align="center">
+<video autoplay="autoplay" muted="muted" loop="loop" playsinline="playsiline"> 
+	<source src=Imagenes/CCV.mp4 type="video/mp4" /> 
+	</video> 
+	</div>
+	<br /> 
+	<br /> 
+<h1 align="center"><a name="In" id="In"> Indíce </a></h1> 
+<div align="center">
+<ul class="Estilo1"> 
+<li> <a href="#IG"> Información General </a> </li>
+<li> <a href="#PB"> Papel en la banda </a> </li>
+<li> <a href="#PA"> Proceso artístico </a> </li> 
+</ul> 
+</div>
+<br /> 
+<div align="center">
+<video autoplay="autoplay" muted="muted" loop="loop" playsinline="playsiline"> 
+	<source src=Imagenes/CCV.mp4 type="video/mp4" /> 
+	</video> 
+	</div>
+	<br /> 
+	<br /> 
+	<h1 align="center"><a name="IG" id="IG"> Información General </a></h2>
+<h2 align="center"> ¿Quién es Camila Cabello? </h2> 
+<div align="justify">
+<span class="Estilo1"> Karla Camila Cabello Estrabao, conocida simplemente como Camila Cabello, es una de las artistas pop más influyentes de la actualidad. Su familia es el núcleo de su historia; nació en Cojímar, Cuba, y vivió entre La Habana y la Ciudad de México antes de emigrar a Miami a los seis años junto a su madre, Sinuhe, con solo una mochila y sin hablar inglés (su padre, Alejandro, se les uniría después). </span> 
+<h2 align="center"> ¿Quién era cuando entró a The Factory? </h2>
+<span class="Estilo1"> Cuando entró a The X Factor a los 15 años, era una chica extremadamente tímida que solía cantar sola en su habitación y que pidió como regalo de quinceañera ir a la audición del programa. Aunque inicialmente fue eliminada como solista, su audición de "Respect" de Aretha Franklin dejó ver un carisma natural que la llevó a ser rescatada para el grupo.  </span>
+<h2 align="center"> ¿Que hizo después de Fifth Harmony? </h2> 
+<span class="Estilo1"> Lo que hizo después de su salida de la banda en diciembre de 2016 fue una de las transiciones al éxito solista más explosivas de la industria. Se reinventó con el hit mundial "Havana", lanzó álbumes exitosos como Camila, Romance y Familia, y protagonizó la película Cinderella. Además de ganar múltiples premios Grammy y Billboard, se ha consolidado como una compositora que abraza sus raíces latinas, evolucionando recientemente hacia un estilo más experimental con su álbum C,XOXO. </span> 
+</div>
+<br /> 
+<br /> 
+<br /> 
+<div align="center">
+<marquee direction="right"> 
+<table width="1529" height="248">
+  <tr>
+    <td height="242"><img src="Imagenes/CC1.jpg" width="250" height="250" /></td>
+    <td><img src="Imagenes/CC2.jpg" width="250" height="250" /></td>
+    <td><img src="Imagenes/CC3.jpg" width="250" height="250" /></td>
+	<td><img src="Imagenes/CC4.jpg" width="250" height="250" /></td>
+    <td><img src="Imagenes/CC5.jpg" width="250" height="250" /></td>
+  </tr>
+</table>
+</marquee>
+<a href="#In" class="Estilo1">Ir a lista</a>
+</div>
+<br /> 
+<div align="center">
+<video autoplay="autoplay" muted="muted" loop="loop" playsinline="playsiline"> 
+	<source src=Imagenes/CCV.mp4 type="video/mp4"> 
+	</video> 
+	</div>
+	<br /> 
+	<br /> 
+<h1 align="center"> <a name="PB" id="PB"> Papel en la banda </a> </h1> 
+	<div align="justify"> 
+	<span class="Estilo1"> Camila Cabello se destacó en Fifth Harmony por su voz aguda y distintiva, que aportaba un matiz único al sonido del grupo. Su timbre, cargado de frescura y emoción, le permitió asumir partes importantes en las canciones, especialmente en los momentos más melódicos y memorables. Gracias a esta cualidad, Camila se convirtió en una de las integrantes más reconocibles, aportando un estilo vocal que contrastaba y complementaba el de sus compañeras.
+<br /> 
+<br /> 
+Además de su talento vocal, Camila mostró una gran capacidad para conectar con el público a través de su interpretación. Su manera de transmitir sentimientos en cada presentación fortalecía la identidad del grupo y le daba un carácter más cercano y emocional. Esta habilidad la convirtió en una figura clave durante los años de mayor éxito de la banda, ya que ayudaba a reforzar la conexión entre Fifth Harmony y sus seguidores.
+<br /> 
+<br /> 
+En el plano personal, Camila también fue vista como una artista ambiciosa y creativa, con un fuerte interés en desarrollar su propio estilo. Su presencia dentro del grupo aportaba dinamismo y diversidad, enriqueciendo la propuesta artística de Fifth Harmony. En conjunto, su papel fue el de una intérprete que sumaba frescura, emoción y una voz característica, consolidando el atractivo sonoro y visual de la banda. </span> 
+	</div>
+	<div align="center"> 
+	<marquee direction="right"> 
+<table width="1529" height="248">
+  <tr>
+     <td height="242"><img src="Imagenes/CC1.jpg" width="250" height="250" /></td>
+    <td><img src="Imagenes/CC2.jpg" width="250" height="250" /></td>
+    <td><img src="Imagenes/CC3.jpg" width="250" height="250" /></td>
+	<td><img src="Imagenes/CC4.jpg" width="250" height="250" /></td>
+    <td><img src="Imagenes/CC5.jpg" width="250" height="250" /></td>
+  </tr>
+</table>
+</marquee>
+<a href="#In" class="Estilo1">Ir a lista</a>
+</div>
+<br /> 
+<div align="center">
+<video autoplay="autoplay" muted="muted" loop="loop" playsinline="playsiline"> 
+	<source src=Imagenes/CCV.mp4 type="video/mp4"> 
+	</video>
+	</div> 
+	<br /> 
+	<br /> 
+	<h1 align="center"> <a name="PA" id="PA"> Proceso Artístico </a> </h1> 
+	<div align="justify"> 
+	<span class="Estilo1"> El proceso artístico de Camila Cabello se ha caracterizado por una transición hacia una identidad propia, marcada por la exploración de sonidos frescos y la búsqueda de autenticidad. Al iniciar su carrera como solista, se inclinó por un estilo que fusiona el pop con influencias latinas y elementos del R&B, lo que le permitió diferenciarse y construir una propuesta única dentro de la industria musical. Esta mezcla de géneros refleja tanto sus raíces culturales como su interés en conectar con públicos diversos.
+<br /> 
+<br /> 
+Uno de los aspectos más notables de su evolución ha sido la capacidad de transmitir emociones intensas a través de sus canciones. Camila ha trabajado en proyectos que destacan por su sensibilidad y por la manera en que logra convertir experiencias personales en mensajes universales. Su proceso creativo se centra en la honestidad y en la construcción de melodías que combinan frescura con profundidad, lo que le ha permitido consolidarse como una intérprete versátil y cercana.
+<br /> 
+<br /> 
+En el plano estético, Camila ha cuidado la coherencia entre su música y su imagen artística. Sus videoclips, presentaciones en vivo y campañas visuales refuerzan la narrativa de sus canciones, creando un universo creativo que conecta con la audiencia de manera integral. Esta atención al detalle le ha permitido posicionarse como una artista que no solo destaca por su voz, sino también por la construcción de una propuesta visual y conceptual sólida. 
+<br /> 
+<br /> 
+Finalmente, su camino como solista refleja disciplina y ambición. Camila Cabello ha demostrado que su proceso artístico es una constante evolución, marcada por la autenticidad y la valentía de asumir riesgos creativos. Su objetivo ha sido consolidarse como una figura influyente en la música contemporánea, capaz de dejar huella tanto por su talento vocal como por la capacidad de transmitir mensajes genuinos que inspiran y conectan con el público. </span> 
+	</div>
+	<div align="center"> 
+	<marquee direction="right"> 
+<table width="1529" height="248">
+  <tr>
+     <td height="242"><img src="Imagenes/CC1.jpg" width="250" height="250" /></td>
+    <td><img src="Imagenes/CC2.jpg" width="250" height="250" /></td>
+    <td><img src="Imagenes/CC3.jpg" width="250" height="250" /></td>
+	<td><img src="Imagenes/CC4.jpg" width="250" height="250" /></td>
+    <td><img src="Imagenes/CC5.jpg" width="250" height="250" /></td>
+  </tr>
+</table>
+</marquee>
+<a href="#In" class="Estilo1">Ir a lista</a>
+</div>
+<br /> 
+<div align="center">
+<video autoplay="autoplay" muted="muted" loop="loop" playsinline="playsiline"> 
+	<source src=Imagenes/CCV.mp4 type="video/mp4"> 
+	</video> 
+	</div>
+	<br /> 
+	<br /> 
+</body>
+</html>

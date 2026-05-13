@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Documento sin t&iacute;tulo</title>
+<script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+a:link {
+	color: #FF6699;
+}
+a:visited {
+	color: #FFFFFF;
+}
+-->
+</style></head>
+<style type="text/css">
+<!--
+h1 {color:#FFFFFF ; font-size:36px ; font-family:"Courier New", Courier, monospace}
+.Estilo1 {color:#FFFFFF ; font-size:24px ; font-family:Georgia, "Times New Roman", Times, serif}
+h2 {color:#FFFFFF ; font-size:30px ; font-family:"Times New Roman", Times, serif}
+img, video, table, div {max-width:100%; box-sizing:border-box}
+-->
+</style>
+<body bgcolor="#ad0000" onload="MM_preloadImages('Imagenes/ABP2.jpg','Imagenes/ABR2.jpg','Imagenes/ABI2.jpg')">
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><a href="https://www.instagram.com/allybrooke/" target="_top" onclick="MM_nbGroup('down','group1','ABR','',1)" onmouseover="MM_nbGroup('over','ABR','Imagenes/ABR2.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="Imagenes/ABR.jpg" alt="" name="ABR" width="500" height="50" border="0" id="ABR" onload="" /></a></td>
+      <td><a href="Principal.html" target="_top" onclick="MM_nbGroup('down','group1','ABP','',1)" onmouseover="MM_nbGroup('over','ABP','Imagenes/ABP2.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="Imagenes/ABP.jpg" alt="" name="ABP" width="500" height="50" border="0" id="ABP" onload="" /></a></td>
+      <td><a href="https://mx.pinterest.com/search/pins/?q=ally brooke&amp;rs=rs&amp;source_id=rs_9mnCgyNU&amp;top_pin_ids=1094234040694626732&amp;eq=&amp;etslf=2511" target="_top" onclick="MM_nbGroup('down','group1','ABI','',1)" onmouseover="MM_nbGroup('over','ABI','Imagenes/ABI2.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="Imagenes/ABI.jpg" alt="" name="ABI" width="500" height="50" border="0" id="ABI" onload="" /></a></td>
+    </tr>
+  </table>
+</div>
+<br /> 
+<br /> 
+<div align="center">
+<video autoplay="autoplay" muted="muted" loop="loop" playsinline="playsiline"> 
+	<source src=Imagenes/ABV.mp4 type="video/mp4"> 
+</video>
+</div> 
+	<br /> 
+	<br /> 
+<h1 align="center"><a name="In" id="In"> Indíce </a></h1> 
+<div align="center">
+<ul class="Estilo1"> 
+<li> <a href="#IG"> Información General </a> </li>
+<li> <a href="#PB"> Papel en la banda </a> </li>
+<li> <a href="#PA"> Proceso artístico </a> </li> 
+</ul> 
+</div> 
+<div align="center"><br /> 
+<video autoplay="autoplay" muted="muted" loop="loop" playsinline="playsiline"> 
+	  <source src=Imagenes/ABV.mp4 type="video/mp4" /> 
+</video> 
+<br /> 
+	    <br /> 
+</div>
+	<h1 align="center"><a name="IG" id="IG"> Información General </a></h1>
+<h2 align="center"> ¿Quién es Ally Brooke? </h2> 
+<div align="justify">
+<span class="Estilo1"> Ally Brooke Hernandez, conocida artísticamente como Ally Brooke, es una cantante y autora estadounidense que saltó a la fama mundial como la integrante de mayor edad del grupo Fifth Harmony. Nacida el 7 de julio de 1993 en San Antonio, Texas, Ally creció en un entorno profundamente marcado por su familia y sus raíces mexicanas; sus padres, Jerry y Patricia Hernandez, la criaron bajo fuertes valores cristianos y la apoyaron desde pequeña en su sueño de ser artista, a pesar de que Ally nació de forma prematura y enfrentó desafíos de salud en sus primeros días de vida. </span> 
+<h2 align="center"> ¿Quién era cuando entró a The Factory? </h2>
+<span class="Estilo1"> Cuando entró a The X Factor en 2012, Ally ya no era una novata total, pues había pasado años presentándose en eventos locales y caritativos en Texas, audicionando para el programa con una interpretación de "On My Knees" que demostró su potente rango vocal y su madurez artística frente a sus futuras compañeras. </span>
+<h2 align="center"> ¿Cuál era su papel en la banda? </h2> 
+<span class="Estilo1"> Dentro de Fifth Harmony, su papel en la banda fue fundamental, siendo frecuentemente llamada la "hermana mayor" del grupo debido a su capacidad para mantener la armonía emocional del quinteto y su disposición para aconsejar a las más jóvenes. Vocalmente, Ally aportaba texturas de soprano y una técnica vibrante que destacaba en las notas altas y en los momentos más melódicos de sus canciones. </span>
+<h2 align="center"> ¿Que hizo después de Fifth Harmony? </h2> 
+<span class="Estilo1"> Tras la pausa indefinida del grupo en 2018, lo que hizo después de su salida fue diversificar su carrera al máximo: lanzó su carrera como solista con sencillos como "Low Key", participó en el programa Dancing with the Stars donde llegó a la final, publicó su libro de memorias titulado Finding Your Harmony y, más recientemente, ha explorado sus raíces latinas lanzando música en español y participando en proyectos cinematográficos. </span> 
+</div>
+<br /> 
+<br /> 
+<div align="center">
+<marquee direction="right"> 
+<table width="1529" height="248">
+  <tr>
+    <td height="242"><img src="Imagenes/AB1.jpg" width="250" height="250" /></td>
+    <td><img src="Imagenes/AB2.jpg" width="250" height="250" /></td>
+    <td><img src="Imagenes/AB3.jpg" width="250" height="250" /></td>
+	<td><img src="Imagenes/AB4.jpg" width="250" height="250" /></td>
+    <td><img src="Imagenes/AB5.jpg" width="250" height="250" /></td>
+  </tr>
+</table>
+</marquee>
+<a href="#In" class="Estilo1">Ir a lista</a>
+</div>
+<div align="center"><br /> 
+<video autoplay="autoplay" muted="muted" loop="loop" playsinline="playsiline"> 
+	  <source src=Imagenes/ABV.mp4 type="video/mp4"> 
+</video> 
+<br /> 
+	    <br /> 
+</div>
+	<h1 align="center"> <a name="PB" id="PB"> Papel en la banda </a> </h1> 
+	<div align="justify"> 
+	<span class="Estilo1"> Ally Brooke desempeñó un papel muy importante dentro de la banda Fifth Harmony (5H), tanto en lo musical como en lo personal. Desde el inicio del grupo, ella se destacó por su voz cálida y versátil, capaz de adaptarse a distintos géneros y estilos. Aunque Fifth Harmony era una agrupación conformada por cinco integrantes con talentos diversos, Ally aportaba un matiz especial: su tono melódico y su capacidad para transmitir emociones en las canciones le daban un sello distintivo a la banda. En temas como “Sledgehammer” o “Worth It”, su participación vocal ayudaba a equilibrar la energía del grupo, ofreciendo momentos de suavidad y armonía frente a las voces más potentes o agresivas de sus compañeras. 
+<br /> 
+<br /> 
+Además de su talento vocal, Ally Brooke fue reconocida por su carisma y cercanía con los fans. Siempre mostró una actitud positiva y agradecida, lo que fortaleció el vínculo entre la banda y su público. Dentro del grupo, se le veía como una persona alegre y optimista, capaz de aportar estabilidad emocional en medio de la presión que conlleva la fama. Su presencia ayudaba a mantener la cohesión del conjunto, especialmente en los años de mayor éxito, cuando Fifth Harmony se convirtió en uno de los fenómenos juveniles más influyentes de la década.
+<br /> 
+<br /> 
+En cuanto a la dinámica interna, Ally Brooke también representaba la imagen de perseverancia. Antes de formar parte de 5H, había enfrentado varios intentos fallidos en la industria musical, pero su incorporación al grupo le permitió demostrar su talento y alcanzar reconocimiento internacional. Esa historia personal inspiró a muchos seguidores, quienes la veían como un ejemplo de esfuerzo y constancia. Su papel no se limitaba únicamente a cantar: era también un símbolo de esperanza para quienes soñaban con triunfar en la música.
+    </span> 
+	</div>
+	<div align="center"> 
+	<marquee direction="right"> 
+<table width="1529" height="248">
+  <tr>
+    <td height="242"><img src="Imagenes/AB1.jpg" width="250" height="250" /></td>
+    <td><img src="Imagenes/AB2.jpg" width="250" height="250" /></td>
+    <td><img src="Imagenes/AB3.jpg" width="250" height="250" /></td>
+	<td><img src="Imagenes/AB4.jpg" width="250" height="250" /></td>
+    <td><img src="Imagenes/AB5.jpg" width="250" height="250" /></td>
+  </tr>
+</table>
+</marquee>
+<a href="#In" class="Estilo1">Ir a lista</a>
+</div>
+    <div align="center"><br /> 
+<video autoplay="autoplay" muted="muted" loop="loop" playsinline="playsiline"> 
+	    <source src=Imagenes/ABV.mp4 type="video/mp4"> 
+</video> 
+<br /> 
+	    <br /> 
+</div>
+	<h1 align="center"> <a name="PA" id="PA"> Proceso Artístico </a> </h1> 
+	<div align="justify"> 
+	<span class="Estilo1"> El proceso artístico de Ally Brooke se caracteriza por una evolución constante y una búsqueda personal de identidad musical. Tras años de preparación y experiencias previas, decidió emprender un camino en solitario que le permitió explorar con mayor libertad sus influencias, estilos y aspiraciones. Su propuesta como artista independiente se distingue por la fusión de géneros como el pop, el R&B y la música latina, reflejando tanto sus raíces culturales como su deseo de conectar con públicos diversos.
+<br /> 
+<br /> 
+Uno de los aspectos más relevantes de su proceso creativo es la manera en que ha trabajado para consolidar una voz propia dentro de la industria. Ally Brooke ha mostrado interés en experimentar con sonidos modernos, pero también en rescatar elementos clásicos que le permitan transmitir emociones auténticas. Esta combinación le ha dado la oportunidad de construir un repertorio versátil, capaz de adaptarse a distintos escenarios y audiencias.
+<br /> 
+<br /> 
+La artista ha demostrado disciplina y compromiso en cada etapa de su carrera, participando activamente en la composición de sus temas y en la conceptualización de sus proyectos. Su proceso no se limita a la interpretación vocal, sino que abarca la creación de una estética visual coherente con su música, el diseño de presentaciones en vivo y la construcción de un mensaje que inspire a sus seguidores. En este sentido, Ally Brooke ha buscado que su arte sea un reflejo de su historia personal, transmitiendo valores como la perseverancia, la autenticidad y la confianza en uno mismo. 
+<br /> 
+<br /> 
+Otro rasgo fundamental de su proceso artístico es la conexión con sus raíces latinas. Ally ha expresado en diversas ocasiones el orgullo por su herencia cultural y ha incorporado el español en algunas de sus producciones, lo que le ha permitido ampliar su alcance y fortalecer su identidad como artista bilingüe. Esta decisión no solo enriquece su propuesta musical, sino que también la posiciona como una figura capaz de tender puentes entre diferentes culturas. </span> 
+	</div>
+	<div align="center"> 
+	<marquee direction="right"> 
+<table width="1529" height="248">
+  <tr>
+    <td height="242"><img src="Imagenes/AB1.jpg" width="250" height="250" /></td>
+    <td><img src="Imagenes/AB2.jpg" width="250" height="250" /></td>
+    <td><img src="Imagenes/AB3.jpg" width="250" height="250" /></td>
+	<td><img src="Imagenes/AB4.jpg" width="250" height="250" /></td>
+    <td><img src="Imagenes/AB5.jpg" width="250" height="250" /></td>
+  </tr>
+</table>
+</marquee>
+<a href="#In" class="Estilo1">Ir a lista</a>
+</div>
+    <div align="center"> 
+      <video autoplay="autoplay" muted="muted" loop="loop" playsinline="playsiline"> 
+	    <source src=Imagenes/ABV.mp4 type="video/mp4"> 
+         </video> 
+	    <br /> 
+    </div>
+</body>
+</html>
